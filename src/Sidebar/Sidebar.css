@@ -1,0 +1,8 @@
+.sidebar{
+  height: 100%;
+  background-color: purple;
+  width: 50px;
+  color: white;
+  overflow: hidden;
+  display: inline-block;
+}
