@@ -1,0 +1,15 @@
+.app{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+body{
+  margin: 0;
+  background-color: #19171c;
+  color: white;
+  font-size: 65.2%;
+}

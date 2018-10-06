@@ -1,3 +1,10 @@
 .main-display{
-  display: inline-block;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  width: calc(100% - 51px);
+  float: right;
+  overflow-y: scroll;
 }

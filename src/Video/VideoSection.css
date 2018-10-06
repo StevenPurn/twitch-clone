@@ -1,3 +1,5 @@
 .video-section{
-  display: inline-block;
+  align-self: auto;
+  flex-grow: 1;
+  overflow-y: scroll;
 }

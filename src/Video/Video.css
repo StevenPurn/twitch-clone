@@ -1,0 +1,31 @@
+.video-iframe{
+  width: 100%;
+  margin: auto;
+  height: calc((100vh - 50px) * 0.8);
+}
+
+.video{
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.video-details{
+  width: 100%;
+  background-color: #201c2b;
+  border-color: rgb(44, 37, 65);
+  border-width: 1px;
+  border-style: solid;
+}
+
+.game-img{
+  display: inline-block;
+}
+
+.video-title{
+  display: inline-block;
+}
+
+.inner-details{
+  padding: 10px;
+}

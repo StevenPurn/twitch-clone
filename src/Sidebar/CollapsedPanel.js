@@ -1,10 +1,18 @@
 import React from 'react';
+import { BrowserRouter as Link } from "react-router-dom";
+import './Sidebar.css';
 
 const CollapsedPanel = ({ panel }) => {
-  const items = panel.items.map(item => <div key={item.name}>{item.name}</div>);
+  const items = panel.items.map(item => {
+    return (<Link key={item.name} to={`/${item.name}`}>
+      <img src={item.icon}></img>
+    </Link>)
+  });
   return (
     <div>
-      <div>{panel.title}</div>
+      <div className='icon-parent'>
+        <div className='icon'><img src={panel.icon}></img></div>
+      </div>
       {items}
     </div>
   )

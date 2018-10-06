@@ -1,6 +1,7 @@
 .top-bar{
-  height: 5 rem;
+  height: 50px;
   background-color: #392e5c;
-  color:white;
   display: block;
+  flex-grow: 0;
+  width: 100%;
 }

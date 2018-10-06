@@ -1,11 +1,9 @@
 import React from 'react';
-import Logo from './Logo';
-import './Topbar.css';
 
 const Topbar = () => {
   return (
-    <div className="top-bar">
-      <Logo />
+    <div className="logo">
+      <img src='https://via.placeholder.com/30x30'></img>
     </div>
   )
 }
